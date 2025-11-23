@@ -19,8 +19,6 @@ The model uses a **3-layer encoder** and **3-layer decoder** with strided convol
 
 The architecture compresses images from **3×32×32 → 128×4×4** and reconstructs them back.
 
----
-
 ## Training Summary
 
 * **Batch size:** 64
@@ -29,10 +27,8 @@ The architecture compresses images from **3×32×32 → 128×4×4** and reconstr
 * **Optimizer:** Adam (`lr = 1e-3`)
 * **Noise model:** `image + N(0, 0.2²)`
 
----
-
 ## Results
-<img width="865" height="1490" alt="image" src="https://github.com/user-attachments/assets/76bdf836-ba2a-4751-aabe-09e8fdb7a9fd" />
+<img width="864" height="886" alt="image" src="https://github.com/user-attachments/assets/6dfdf444-f580-43ef-943d-ba377694fc3d" />
 <img width="584" height="455" alt="image" src="https://github.com/user-attachments/assets/62b8ebf9-ea4c-42f3-9baf-8e909442eb30" />
 
 
